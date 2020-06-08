@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  .varn{
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    color: rgb(211, 211, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-justify: newspaper;
+    cursor: default;
+  }
+
+    .obrazek{
+      position: absolute;
+      top:12%;
+      width: 110px;
+      height: 100px;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .text{
+      position: absolute;
+      top:25%;
+      left: 50%;
+      width: 250px;
+      transform: translate(-50%,-50%);
+    }
+    .podnadpis{
+      font-size: 10px;
+      font-weight: 600;
+      position: absolute;
+      padding: 0;
+      color: rgb(211, 211, 211);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      top: 30.5%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      cursor: default;
+    }
+    .discord{
+      position: absolute;
+      color: whitesmoke;
+      font-size: 12px;
+      text-decoration: none;
+      bottom:-3.9%;
+      font-family: sans-serif;
+      right: -800%;
+      text-overflow: unset;
+      visibility: hidden;
+    }
+  
+  
+  
+  body,html {
+    margin: 0;
+    font: bold 12px/1.4 'Open Sans', arial, sans-serif;
+    background: #000;
+  }
+  ul { 
+    margin: 150px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 10px 0;
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 7.9px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  
+  .copy{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 10px;
+    bottom:0.5%;
+    font-family: sans-serif;
+    left:0.2%;
+  }
+
+  .tos{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 10px;
+    text-decoration: none;
+    bottom:-3.9%;
+    font-family: sans-serif;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
