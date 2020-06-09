@@ -40,7 +40,20 @@ body{
     width: 290px;
     transform: translate(-50%,-50%);
   }
-  
+
+  .bruh{
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    color: rgb(211, 211, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    cursor: default;
+  }
+
   #button{
       border-radius:49px;
       background:none;

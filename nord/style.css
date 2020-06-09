@@ -30,6 +30,18 @@ body{
   color: black;
 }
 
+.bruh{
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  color: rgb(211, 211, 211);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  cursor: default;
+}
 
 .text{
   position: absolute;
